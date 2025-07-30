@@ -16,8 +16,8 @@ hero:
       link: https://lu.ma/toledocodes
 
 features:
-  - title: <a href="/mission/">Community</a>
-    details: Learn about our <a href="/mission/">mission and values</a> as a community of developers, designers, and tech enthusiasts in the Toledo area.
+  - title: <a href="/partners/">Community</a>
+    details: Toledo Codes brings together <a href="/partners/">GDG Toledo, Toledo Web Professionals, WordPress Toledo</a>, and the broader tech community in Northwest Ohio.
   - title: <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@ToledoCodes/streams">Talks</a>
     details: Visit our <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@ToledoCodes/streams">YouTube channel</a> to watch our livestreams and access our growing library of past sessions.
   - title: <a target="_blank" rel="noopener noreferrer" href="/submit-talk/">Submit a talk</a>
