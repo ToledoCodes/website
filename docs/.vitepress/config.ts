@@ -36,11 +36,17 @@ export default defineConfig({
     ],
     nav: [
       { text: "Events", link: "https://lu.ma/toledocodes" },
-      { text: "Mission", link: "/mission" },
-      { text: "Organizers", link: "/organizers/" },
-      { text: "Partners", link: "/partners/" },
+      {
+        text: "Community",
+        items: [
+          { text: "Mission", link: "/mission" },
+          { text: "Organizers", link: "/organizers/" },
+          { text: "Partners", link: "/partners/" },
+          { text: "Sponsorships", link: "/sponsorships" },
+          { text: "Code of Conduct", link: "/code-of-conduct/" },
+        ],
+      },
       { text: "Presentations", link: "/presentations/" },
-      { text: "Code of Conduct", link: "/code-of-conduct/" },
       {
         text: "Submit a Talk",
         link: "https://toledo.codes/submit-talk/",
