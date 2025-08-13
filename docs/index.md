@@ -15,6 +15,12 @@ hero:
       text: View Events
       link: https://lu.ma/toledocodes
 
+upcoming_event:
+  eventId: evt-GUUs0x8lw7FPotd
+  title: "RAGs to Riches: Building Intelligent RAG-Based Applications"
+  description: "Learn the foundations of Retrieval‑Augmented Generation (RAG)—semantic search, chunking, embeddings, and more."
+  date: "August 21st, 2025"
+
 features:
   - title: <a href="/partners/">Community</a>
     details: Toledo Codes brings together <a href="/partners/">GDG Toledo, Toledo Web Professionals, WordPress Toledo</a>, and the broader tech community in Northwest Ohio.

@@ -10,16 +10,39 @@ const { frontmatter } = useData()
       <div class="main">
         <div class="cta-container">
           <div v-if="frontmatter.upcoming_event" class="event-callout">
-            <h2 class="event-title">{{ frontmatter.upcoming_event.title }}</h2>
-            <p class="event-tagline">{{ frontmatter.upcoming_event.tagline }}</p>
-            <a 
-              class="event-button" 
-              :href="frontmatter.upcoming_event.link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {{ frontmatter.upcoming_event.buttonText }}
-            </a>
+            <h2 class="event-heading">Register for our next Toledo Codes event</h2>
+            <template v-if="frontmatter.upcoming_event.title">
+              <h2 class="event-title">{{ frontmatter.upcoming_event.title }}</h2>
+            </template>
+            <template v-if="frontmatter.upcoming_event.description || frontmatter.upcoming_event.tagline">
+              <p class="event-tagline">{{ frontmatter.upcoming_event.description || frontmatter.upcoming_event.tagline }}</p>
+            </template>
+
+            <ul class="event-meta">
+              <li v-if="frontmatter.upcoming_event.date"><strong>Date:</strong> {{ frontmatter.upcoming_event.date }}</li>
+              <li>
+                <strong>Where & When:</strong>
+                {{ frontmatter.upcoming_event.venue || 'Toledo Tech Loft' }} @ {{ frontmatter.upcoming_event.time || '6 PM' }}
+              </li>
+            </ul>
+
+            <div class="event-button-wrap">
+              <LumaRegisterButton
+                v-if="frontmatter.upcoming_event.href || frontmatter.upcoming_event.eventId"
+                :event-id="frontmatter.upcoming_event.eventId"
+                :href="frontmatter.upcoming_event.href || (`https://lu.ma/event/${frontmatter.upcoming_event.eventId}`)"
+                :label="frontmatter.upcoming_event.buttonText || 'Register for Event'"
+              />
+              <a 
+                v-else-if="frontmatter.upcoming_event.link"
+                class="event-button" 
+                :href="frontmatter.upcoming_event.link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ frontmatter.upcoming_event.buttonText || 'Register on Luma' }}
+              </a>
+            </div>
           </div>
           
           <div v-if="frontmatter.survey" class="survey-callout">
@@ -86,6 +109,14 @@ const { frontmatter } = useData()
   margin-top: 24px;
 }
 
+.event-heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 6px;
+  color: var(--white);
+  opacity: 0.95;
+}
+
 .survey-title, .event-title {
   font-size: 24px;
   font-weight: 600;
@@ -98,6 +129,23 @@ const { frontmatter } = useData()
   font-size: 16px;
   line-height: 1.5;
   color: var(--white);
+}
+
+.event-meta {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  color: var(--white);
+}
+.event-meta li {
+  margin: 4px 0;
+}
+.event-meta strong {
+  font-weight: 600;
+}
+
+.event-button-wrap {
+  margin-top: auto;
 }
 
 .survey-button, .event-button {
