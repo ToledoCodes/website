@@ -15,12 +15,6 @@ hero:
       text: View Events
       link: https://lu.ma/toledocodes
 
-upcoming_event:
-  eventId: evt-GUUs0x8lw7FPotd
-  title: "RAGs to Riches: Building Intelligent RAG-Based Applications"
-  description: "Learn the foundations of Retrieval‑Augmented Generation (RAG)—semantic search, chunking, embeddings, and more."
-  date: "August 21st, 2025"
-
 features:
   - title: <a href="/partners/">Community</a>
     details: Toledo Codes brings together <a href="/partners/">GDG Toledo, Toledo Web Professionals, WordPress Toledo</a>, and the broader tech community in Northwest Ohio.
@@ -28,4 +22,11 @@ features:
     details: Visit our <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@ToledoCodes/streams">YouTube channel</a> to watch our livestreams and access our growing library of past sessions.
   - title: <a target="_blank" rel="noopener noreferrer" href="/submit-talk/">Submit a talk</a>
     details: Interested in speaking at our meetup? Submit a talk <a target="_blank" rel="noopener noreferrer" href="/submit-talk/">here</a>! Talks of all types and skill levels are welcome.
+
+recent_talks:
+  - title: "RAGs to Riches - Economics of Retrieval-Augmented Generation"
+    date: "2025-08-21"
+    description: "An in-depth exploration of RAG systems and how to build applications that leverage the power of semantic search and large language models."
+    author: "Justin Beaudry"
+    link: "/presentations/events/2025-rag-economics"
 ---

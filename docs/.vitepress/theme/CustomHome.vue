@@ -60,6 +60,9 @@ const { frontmatter } = useData()
         </div>
       </div>
     </div>
+    
+    <!-- Recent Talks Section -->
+    <RecentTalks v-if="frontmatter.recent_talks" :talks="frontmatter.recent_talks" />
   </div>
 </template>
 
