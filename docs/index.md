@@ -12,6 +12,9 @@ hero:
       text: Join our Slack
       link: https://join.slack.com/t/toledo-codes/shared_invite/zt-3an3p3kds-l_DKfRWRcU4s_qklD04TbQ
     - theme: alt
+      text: Fellowship
+      link: /fellowship
+    - theme: alt
       text: View Events
       link: https://lu.ma/toledocodes
 

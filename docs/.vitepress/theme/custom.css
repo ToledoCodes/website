@@ -182,3 +182,63 @@ html.dark .survey-callout {
 .VPHero {
   padding-bottom: 0 !important;
 }
+
+/* Fellowship Button Styling */
+.VPNavBar .nav .VPNavBarMenu .VPNavBarMenuLink[href="/fellowship"] {
+  background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 3s ease-in-out infinite;
+  font-weight: 700;
+  position: relative;
+  text-shadow: 0 0 20px rgba(255, 107, 107, 0.3);
+  transition: all 0.3s ease;
+}
+
+.VPNavBar .nav .VPNavBarMenu .VPNavBarMenuLink[href="/fellowship"]:hover {
+  background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transform: scale(1.1);
+  text-shadow: 0 0 30px rgba(255, 107, 107, 0.5);
+}
+
+/* Homepage Fellowship Button */
+.VPHero .actions .VPButton.alt[href="/fellowship"] {
+  background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+  background-size: 200% 200%;
+  color: white;
+  border: none;
+  font-weight: 600;
+  animation: gradient-shift 3s ease-in-out infinite;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.VPHero .actions .VPButton.alt[href="/fellowship"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Ensure the Fellowship button text is visible in dark mode */
+html.dark .VPNavBar .nav .VPNavBarMenu .VPNavBarMenuLink[href="/fellowship"] {
+  background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

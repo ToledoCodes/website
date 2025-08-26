@@ -1,5 +1,7 @@
 import { defineConfig } from "vitepress";
 
+declare const process: { env: { NODE_ENV: string } };
+
 export default defineConfig({
   title: "Toledo Codes",
   description: "Toledo Codes",
@@ -46,6 +48,7 @@ export default defineConfig({
           { text: "Code of Conduct", link: "/code-of-conduct/" },
         ],
       },
+      { text: "Fellowship", link: "/fellowship" },
       { text: "Presentations", link: "/presentations/" },
       {
         text: "Submit a Talk",
