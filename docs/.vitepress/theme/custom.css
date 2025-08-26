@@ -184,7 +184,7 @@ html.dark .survey-callout {
 }
 
 /* Fellowship Button Styling */
-.VPNavBar .nav .VPNavBarMenu .VPNavBarMenuLink[href="/fellowship"] {
+.VPNavBar .VPNavBarMenu .VPNavBarMenuLink[href="/fellowship"] {
   background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
   background-size: 200% 200%;
   -webkit-background-clip: text;
@@ -197,7 +197,7 @@ html.dark .survey-callout {
   transition: all 0.3s ease;
 }
 
-.VPNavBar .nav .VPNavBarMenu .VPNavBarMenuLink[href="/fellowship"]:hover {
+.VPNavBar .VPNavBarMenu .VPNavBarMenuLink[href="/fellowship"]:hover {
   background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
   background-size: 200% 200%;
   -webkit-background-clip: text;

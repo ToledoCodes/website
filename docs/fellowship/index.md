@@ -60,7 +60,7 @@ We're a student-led tech community building pathways from campus to career. The 
 ---
 
 <div class="hacktoberfest-announcement">
-  📢 **Upcoming**: Hacktoberfest @ the UT Business Incubator — connect with local devs, contribute to open source, and celebrate building in Toledo.
+  📢 Upcoming: Hacktoberfest @ the UT Business Incubator — connect with local devs, contribute to open source, and celebrate building in Toledo.
 </div>
 
 <div id="apply" class="apply-section">
