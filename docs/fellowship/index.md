@@ -14,7 +14,7 @@ This fall, our first cohort launches with the Batting Cleanup project.
 A second project with the Toledo Free Press is also in development—details to be announced soon.
 
 <div class="apply-cta">
-  <a href="#apply" class="apply-button">👉 Apply Now</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyoAqR_9zDGNrfUmt51SS-bK4IKaEPsRvxfMi9IPlblUFg1g/viewform?usp=send_form" class="apply-button" target="_blank" rel="noopener noreferrer">👉 Apply Now</a>
 </div>
 
 ## Fellowship Timeline
@@ -54,7 +54,7 @@ We believe in transparency and community impact:
 We're a student-led tech community building pathways from campus to career. The Fellowship gives students real consulting-style experience while delivering meaningful innovation for Toledo.
 
 <div class="apply-cta">
-  <a href="#apply" class="apply-button">👉 Apply to Join the Fellowship</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyoAqR_9zDGNrfUmt51SS-bK4IKaEPsRvxfMi9IPlblUFg1g/viewform?usp=send_form" class="apply-button" target="_blank" rel="noopener noreferrer">👉 Apply to Join the Fellowship</a>
 </div>
 
 ---
@@ -80,34 +80,36 @@ We're a student-led tech community building pathways from campus to career. The 
 .apply-button {
   display: inline-block;
   padding: 12px 32px;
-  background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
-  color: white;
-  text-decoration: none;
+  background-color: #191970;
+  color: white !important;
+  text-decoration: none !important;
   border-radius: 8px;
   font-weight: 600;
   font-size: 18px;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  animation: gradient-shift 3s ease-in-out infinite;
+  border: 1px solid #191970;
 }
 
 .apply-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-  color: white;
+  background-color: #4040a1;
+  border-color: #4040a1;
+  color: white !important;
+  text-decoration: none !important;
 }
 
-@keyframes gradient-shift {
-  0%, 100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
+/* Dark mode adjustments for buttons */
+html.dark .apply-button {
+  background-color: #6060c2;
+  border-color: #6060c2;
+  color: white !important;
+  text-decoration: none !important;
 }
 
-.apply-button {
-  background-size: 200% 200%;
+html.dark .apply-button:hover {
+  background-color: #4040a1;
+  border-color: #4040a1;
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .hacktoberfest-announcement {
