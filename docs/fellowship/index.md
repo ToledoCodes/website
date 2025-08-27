@@ -67,7 +67,7 @@ We're a student-led tech community building pathways from campus to career. The 
   <h2>Ready to Apply?</h2>
   <p>Applications for the Fall 2025 cohort will open on August 25th. Stay tuned for the application form and more details!</p>
   <div class="apply-cta">
-    <a href="mailto:hello@toledo.codes" class="apply-button">Contact Us for More Info</a>
+    <a href="mailto:toledocodes@gmail.com" class="apply-button">Contact Us for More Info</a>
   </div>
 </div>
 
