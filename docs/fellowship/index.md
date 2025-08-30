@@ -8,7 +8,7 @@ description: Toledo Codes Fellowship Program - Bridge classroom learning with re
 
 ## Overview
 
-The Toledo Codes Fellowship bridges classroom learning with real-world experience. In this 6–8 week bootcamp, students design, build, and ship real client software under industry-style workflows—Git, testing, agile sprints, deployment—guided by mentors.
+The Toledo Codes Fellowship bridges classroom learning with real-world experience. In this 6–8 week bootcamp, fellows work in cross‑disciplinary teams (engineering, data, design, product) to design, ship, and measure solutions under industry-style workflows—Git, testing, agile sprints, deployment—guided by mentors.
 
 This fall, our first cohort launches with the Batting Cleanup project.
 A second project with the Toledo Free Press is also in development—details to be announced soon.
@@ -39,7 +39,7 @@ Batting Cleanup empowers residents to report overflowing trash cans, graffiti, o
 
 ### Partners
 
-UT students • City of Toledo • TARTA • Keep Toledo Beautiful • Anthony Wayne Innovation & Design • Local tech companies
+UT students • City of Toledo • TARTA • Keep Toledo Lucas County Beautiful • Anthony Wayne Innovation & Design • Local tech companies • Beaudry Software & Systems • Wynhouse
 
 ### Build in Public
 
@@ -52,6 +52,21 @@ We believe in transparency and community impact:
 ## Why Toledo Codes is doing this
 
 We're a student-led tech community building pathways from campus to career. The Fellowship gives students real consulting-style experience while delivering meaningful innovation for Toledo.
+
+# UToledo Student Organization
+### Student‑led. Impact‑driven. Open to all disciplines.
+
+The UToledo Student Organization for Toledo Codes is the on‑campus engine that powers fellowship projects. Members collaborate in squads (Product, Engineering, Data, Design, Ops) to build, test, and ship the Batting Cleanup system and future fellowship initiatives.
+
+### What the Org Does
+
+- Weekly working sessions and office hours
+
+- Tech talks and workshops (RAG systems, data pipelines, civic UX)
+
+- Partner demos and stakeholder feedback sessions
+
+- Build‑in‑public updates and campus showcases
 
 <div class="apply-cta">
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyoAqR_9zDGNrfUmt51SS-bK4IKaEPsRvxfMi9IPlblUFg1g/viewform?usp=send_form" class="apply-button" target="_blank" rel="noopener noreferrer">👉 Apply to Join the Fellowship</a>
