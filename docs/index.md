@@ -14,6 +14,9 @@ hero:
     - theme: alt
       text: View Events
       link: https://lu.ma/toledocodes
+    - theme: alt
+      text: Fellowship
+      link: /fellowship
 
 features:
   - title: <a href="/partners/">Community</a>

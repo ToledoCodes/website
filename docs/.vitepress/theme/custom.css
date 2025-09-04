@@ -182,3 +182,35 @@ html.dark .survey-callout {
 .VPHero {
   padding-bottom: 0 !important;
 }
+
+/* Fellowship Button Styling */
+.VPNavBar .VPNavBarMenu .VPNavBarMenuLink[href="/fellowship"] {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.VPNavBar .VPNavBarMenu .VPNavBarMenuLink[href="/fellowship"]:hover {
+  color: var(--vp-c-brand-2);
+}
+
+/* Homepage Fellowship Button */
+.VPHero .actions .VPButton.alt[href="/fellowship"] {
+  background-color: var(--vp-button-brand-bg);
+  color: white;
+  border: 1px solid var(--vp-button-brand-bg);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.VPHero .actions .VPButton.alt[href="/fellowship"]:hover {
+  background-color: var(--vp-button-brand-hover-bg);
+  border-color: var(--vp-button-brand-hover-bg);
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
