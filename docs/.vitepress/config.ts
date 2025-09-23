@@ -48,7 +48,7 @@ export default defineConfig({
           { text: "Code of Conduct", link: "/code-of-conduct/" },
         ],
       },
-      { text: "Fellowship", link: "/fellowship" },
+      { text: "Fellowship", link: "/fellowship/" },
       { text: "Presentations", link: "/presentations/" },
       {
         text: "Submit a Talk",
