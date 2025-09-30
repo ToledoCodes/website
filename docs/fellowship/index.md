@@ -19,10 +19,10 @@ A second project with the Toledo Free Press is also in development—details to 
 
 ## Fellowship Timeline
 
-- **Aug 25 – Sep 26** → Applications open
-- **Sep 27–28** → Async video interviews
-- **Oct 01** → Fellows announced
-- **Oct 06-13** → Prep & onboarding
+- **Aug 25 – Sep 28** → Applications open
+- **Sep 29 – Oct 06** → Async video interviews
+- **Oct 07** → Fellows announced
+- **Oct 07 - 13** → Prep & onboarding
 - **Oct 13 – Mar 2026** → Fellowship in action
 
 ## Project 1: Batting Cleanup
